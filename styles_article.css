@@ -1,0 +1,214 @@
+body {
+    background-image: url("images/1614840358_38-p-fon-zvezdnoe-nebo-51.jpg");
+    background-size: 1920px 1080px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+}
+/* Создание стиля для скролла */
+body::-webkit-scrollbar {
+    width: 14px;       /* ширина scrollbar */
+}
+  body::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);       /* цвет дорожки */
+}
+  body::-webkit-scrollbar-thumb {
+    background-color: black;    /* цвет плашки */
+    border-radius: 20px;       /* закругления плашки */
+    border: 3px solid rgba(168, 74, 255, 0.5);  /* padding вокруг плашки */
+}
+* {
+    box-sizing: border-box;
+}
+.sedan-sc-regular {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#wrapper {
+    width: 100%;
+    font-family: "Sedan SC", serif;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+}   
+#header p {
+    margin-bottom: 30px;
+    margin-top: 25px;
+    color: rgb(160, 45, 175);
+    font-size: 60px;
+    font-weight: 500;
+    text-shadow: 1px 0px 1px rgb(255, 0, 144),
+    0px 1px 1px rgb(255, 0, 144),
+    -1px 0px 1px rgb(255, 0, 144),
+    0px -1px 1px rgb(255, 0, 144), 
+    10px 0px 20px rgba(255, 255, 255, 0.5);
+}
+
+#header nav {
+    display: flex;
+    width: 700px;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 100px;
+}
+#header nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-shadow: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Oswald, serif;
+    width: 140px;
+    background-color: rgba(0,0,0, 0.15);
+    backdrop-filter: blur(1px);
+    border: 1px solid rgb(255, 154, 250);
+    border-radius: 10px;
+    height: 50px;
+}
+#header nav .active {
+    text-decoration: none;
+    color: rgb(179, 97, 255);
+}
+@keyframes change_color {
+    from {
+        color: white;
+    }
+    to {
+        color: rgb(208, 165, 249);
+    }
+}
+#header nav a:hover {
+    animation-name: change_color;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#main {
+    width: 1380px;
+    margin: 0 auto;
+    border: 1px solid rgb(255, 154, 250);
+    border-radius: 10px;
+    backdrop-filter: blur(1px);
+    background-color: rgba(0,0,0, 0.3);
+}
+#main #first {
+    margin-top: -100px;
+}
+#main .title {
+    position: relative;
+    top: 150px;
+    left: 50px;
+    width: 200px;
+    font-size: 150px;
+    opacity: 0.8;
+    font-family: Oswald, serif;
+    line-height: 45px;
+    margin-left: 50px;
+    text-shadow: 0px 0px 10px rgb(255, 154, 250);
+}
+#main .date {
+    position: relative;
+    left: 5%;
+    font-size: 18px;
+    width: 550px;
+    background-color: rgba(0,0,0, 0.8);
+    text-align: center;
+}
+#main a {
+    text-decoration: none;
+    color: rgb(179, 97, 255);
+}
+#main .text {
+    font-size: 20px;
+    line-height: 40px;
+    font-family: "Playfair Display", serif;
+    border: 10px ridge rgba(255, 154, 250, 0.7);
+    padding: 20px;
+    
+}
+#main .text.right {
+    width: 35%;
+    margin-left: 60%;
+    padding-bottom: 10%;
+}
+#main .text.left {
+    width: 35%;
+    margin-right: 60%;
+    margin-left: 10%;
+}
+#main .text span {
+    font-weight: 700;
+}
+#main .micro-head {
+    width: 500px;
+    line-height: 120px;
+    position: relative;
+    font-size: 85px;
+    opacity: 0.7;
+    font-family: oswald, serif;
+    text-align: center;
+}
+#main .micro-head.left {
+    top: 150px;
+    left: 10%;
+}
+#main .micro-head.right {
+    top: 190px;
+    left: 60%;
+}
+#main .max-head-right {
+    font-size: 50px;
+    line-height: 80px;
+}
+#main .blck-back {
+    width: 100%;
+    background-color: rgba(0,0,0, 0.8);
+    padding-bottom: 150px;
+}
+#main .quote {
+    font-size: 20px;
+    font-style: italic;
+    height: 200px;
+    width: 100%;
+    border-top: 10px ridge rgba(255, 154, 250, 0.7);
+    border-left: 10px ridge rgba(255, 154, 250, 0.7);
+    padding: 15px;
+    border-right: none;
+    border-bottom: none;
+
+}
+/* Стиль для скролла */
+#main #scrl-help-right {
+    position: relative;
+    left: 60%;
+    width: 150px;
+}
+#main #scrl-help-left {
+    position: relative;
+    left: 10%;
+    width: 150px;
+}
+#main #scrl {
+    overflow:scroll;
+    text-overflow: ellipsis;
+}
+#main #scrl::-webkit-scrollbar {
+    width: 10px;
+}
+#main #scrl::-webkit-scrollbar-track {
+    background-color: rgba(0,0,0, 0.8);
+}
+#main #scrl::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 154, 250);
+    border-radius: 10px;
+}
