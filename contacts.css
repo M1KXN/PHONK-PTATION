@@ -1,11 +1,23 @@
 body {
     background-image: url("images/1614840358_38-p-fon-zvezdnoe-nebo-51.jpg");
-    background-size: 1920px 1080px;
+    background-size: 100%;
     color: white;
     margin: 0;
     padding: 0;
     letter-spacing: 2px;
 
+}
+/* Создание стиля для скролла */
+body::-webkit-scrollbar {
+    width: 14px;       /* ширина scrollbar */
+}
+  body::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);       /* цвет дорожки */
+}
+  body::-webkit-scrollbar-thumb {
+    background-color: black;    /* цвет плашки */
+    border-radius: 20px;       /* закругления плашки */
+    border: 3px solid rgba(168, 74, 255, 0.5);  /* padding вокруг плашки */
 }
 * {
     box-sizing: border-box;
@@ -102,6 +114,7 @@ body {
     backdrop-filter: blur(1px);
     background-color: rgba(0,0,0, 0.5);
     box-shadow: 10px 8px 15px black;
+    text-align: center;
 }
 #main #contacts p {
     font-size: 40px;
@@ -240,6 +253,7 @@ body {
         height: 300px;
         width: 100%;
         margin: 0 auto;
+        padding-top: 20px;
     }
     #main #contacts p {
         font-size: 30px;
