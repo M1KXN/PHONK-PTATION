@@ -60,7 +60,7 @@ body::-webkit-scrollbar {
     width: 700px;
     justify-content: center;
     margin: 0 auto;
-    gap: 100px;
+    gap: 50px;
     /* border: 1px solid red; */
 }
 #header nav a {
@@ -99,7 +99,7 @@ body::-webkit-scrollbar {
 
 #main {
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
 }
 #main #contacts {
     display: flex;
@@ -187,6 +187,40 @@ body::-webkit-scrollbar {
     top: 300px;
     left: 1250px;
     opacity: 0.7;
+}
+
+#hr {
+    width: 80%;
+    height: 1px;
+    margin: 0 auto;
+    border: 2px solid rgb(255, 154, 250);
+    border-radius: 1px;
+}
+#footer {
+    width: 80%;
+    margin: 50px auto; 
+    text-align: center;  
+}
+#footer p {
+    font-size: 12px;
+    margin-top: 50px;
+}
+#footer #social {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+#footer #social #first {
+    height: 50px;
+    width: 50px;
+    background-image: url("images/vk.png");
+    background-size: 50px;
+}
+#footer #social #scnd {
+    height: 50px;
+    width: 50px;
+    background-image: url("images/pngwing.com.png");
+    background-size: 50px;
 }
 
 

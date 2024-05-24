@@ -57,7 +57,7 @@ body::-webkit-scrollbar {
     width: 700px;
     justify-content: center;
     margin: 0 auto;
-    gap: 100px;
+    gap: 50px;
 }
 #header nav a {
     display: flex;
@@ -95,7 +95,7 @@ body::-webkit-scrollbar {
 
 #main {
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
     border: 1px solid rgb(255, 154, 250);
     border-radius: 10px;
     backdrop-filter: blur(1px);
@@ -115,6 +115,7 @@ body::-webkit-scrollbar {
     margin-left: 50px;
     text-shadow: 0px 0px 10px rgb(255, 154, 250);
 }
+/* стиль для даты */
 #main .date {
     position: relative;
     left: 5%;
@@ -127,6 +128,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
     color: rgb(179, 97, 255);
 }
+/* стиль для текста */
 #main .text {
     font-size: 20px;
     line-height: 40px;
@@ -148,6 +150,7 @@ body::-webkit-scrollbar {
 #main .text span {
     font-weight: 700;
 }
+/* стиль для микро заголовков */
 #main .micro-head {
     width: 500px;
     line-height: 120px;
@@ -169,11 +172,26 @@ body::-webkit-scrollbar {
     font-size: 50px;
     line-height: 80px;
 }
+/* стиль для блока */
 #main .blck-back {
     width: 100%;
     background-color: rgba(0,0,0, 0.8);
     padding-bottom: 150px;
 }
+/* Стиль для подсказки о прямой речи */
+#main .dir-speech-left {
+    position: relative;
+    left: 10%;
+    font-size: 16px;
+    width: 400px;
+}
+#main .dir-speech-right {
+    position: relative;
+    left: 60%;
+    font-size: 16px;
+    width: 400px;
+}
+/* стиль для цитаты */
 #main .quote {
     font-size: 20px;
     font-style: italic;
@@ -185,17 +203,20 @@ body::-webkit-scrollbar {
     border-right: none;
     border-bottom: none;
 }
-/* Стиль для скролла */
+/* Стиль для подсказки о скролле */
 #main #scrl-help-right {
     position: relative;
     left: 60%;
     width: 150px;
+    font-size: 12px;
 }
 #main #scrl-help-left {
     position: relative;
     left: 10%;
     width: 150px;
+    font-size: 12px;
 }
+/* Стиль для скролла */
 #main #scrl {
     overflow:scroll;
     text-overflow: ellipsis;
@@ -209,6 +230,41 @@ body::-webkit-scrollbar {
 #main #scrl::-webkit-scrollbar-thumb {
     background-color: rgb(255, 154, 250);
     border-radius: 10px;
+}
+
+
+#hr {
+    width: 80%;
+    height: 1px;
+    margin: 0 auto;
+    border: 2px solid rgb(255, 154, 250);
+    border-radius: 1px;
+}
+#footer {
+    width: 80%;
+    margin: 50px auto; 
+    text-align: center;  
+}
+#footer p {
+    font-size: 12px;
+    margin-top: 50px;
+}
+#footer #social {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+#footer #social #first {
+    height: 50px;
+    width: 50px;
+    background-image: url("images/vk.png");
+    background-size: 50px;
+}
+#footer #social #scnd {
+    height: 50px;
+    width: 50px;
+    background-image: url("images/pngwing.com.png");
+    background-size: 50px;
 }
 
 
@@ -327,6 +383,7 @@ body::-webkit-scrollbar {
     #header {
         margin: 0 auto;
     }
+    /* адаптация заголовка */
     #header p {
         font-size: 27px;
         text-align: center;
@@ -341,6 +398,7 @@ body::-webkit-scrollbar {
         font-size: 15px;
         height: 40px;
     }
+    /* адаптация основного блока */
     #main {
         background-color: rgba(0, 0, 0, 0.15);
     }
@@ -348,12 +406,14 @@ body::-webkit-scrollbar {
         font-size: 12px;
         width: 50%;
     }
+    /* адаптация главного заголовка */
     #main .title {
         font-size: 40px;
-        margin-top: 50%;
+        margin-top: 30%;
         writing-mode: vertical-lr;
         text-orientation: upright;
     }
+    /* адаптация текста */
     #main .text {
         font-size: 14px;
         line-height: 30px;
@@ -365,6 +425,7 @@ body::-webkit-scrollbar {
         margin: 0 auto;
         margin-top: 40%;
     }
+    /* адаптация первого текста */
     #main  #first .text.right {
         width: 40%;
         margin-top: -50%;
@@ -375,6 +436,7 @@ body::-webkit-scrollbar {
         margin: 0 auto;
         margin-top: 40%;
     }
+    /* адаптация микро заголовков */
     #main .micro-head {
         width: 80%;
         line-height: 50px;
@@ -391,15 +453,31 @@ body::-webkit-scrollbar {
         top: 50px;
         left: 10%;
     }
+    /* адаптация блока с фоном */
     #main .blck-back {
         width: 100%;
         background-color: rgba(0,0,0, 0.8);
         padding-bottom: 150px;
     }
+    /* адаптация максимального заголовка */
     #main .max-head-right {
         font-size: 30px;
         line-height: 50px;
     }
+    /* адаптация подсказок для прямой речи */
+    #main .dir-speech-left {
+        top: 120px;
+        left: 10%;
+        width: 60%;
+        font-size: 14px;
+    }
+    #main .dir-speech-right {
+        top: 120px;
+        left: 10%;
+        width: 60%;
+        font-size: 14px;
+    }
+    /* адаптация цитат */
     #main .quote {
         font-style: italic;
         height: 180px;
@@ -410,6 +488,7 @@ body::-webkit-scrollbar {
         border-right: none;
         border-bottom: none;
     }
+    /* адаптация подсказки о скролле */
     #main #scrl-help-right {
         position: relative;
         font-size: 12px;

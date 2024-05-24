@@ -59,7 +59,7 @@ body::-webkit-scrollbar {
     width: 700px;
     justify-content: center;
     margin: 0 auto;
-    gap: 100px;
+    gap: 50px;
     /* border: 1px solid red; */
 }
 #header nav a {
