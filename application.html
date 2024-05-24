@@ -17,7 +17,7 @@
         <div id="header">
             <p>PHONK PREVENTATION</p>
             <nav>
-                <a href="main.html">Главная</a>
+                <a href="index.html">Главная</a>
                 <a href="articles.html">Статьи</a>
                 <a href="contacts.html">Контакты</a>
                 <a href="application.html" class="active">Заявка</a>
@@ -27,7 +27,10 @@
             <p>Заявка на интервью</p>
         </div>
         <div id="content">
-            <form action="send.php" method="post">
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="0beecfed-8e5e-43b8-94cd-092ba8e8933e">
+
                 <label for="name">Имя</label>
                 <input type="text" id="name" name="user_name"><br><br>
                 <label for="email">Email</label>

@@ -109,7 +109,7 @@ body::-webkit-scrollbar {
 }
 #head {
     margin: 0 auto;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid rgb(255, 154, 250);
     width: 25%;
     text-align: center;
