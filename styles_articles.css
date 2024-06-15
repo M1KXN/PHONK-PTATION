@@ -294,7 +294,7 @@ body::-webkit-scrollbar {
         justify-content: center;
     }
     #header nav a {
-        font-size: 13px;
+        font-size: 12px;
         height: 40px;
     }
     #main {
@@ -303,7 +303,10 @@ body::-webkit-scrollbar {
     }
     #main #articles {
         grid-template: repeat(20, 1fr) / repeat(1, 1fr);
-        gap: 25px;
+        column-gap: 0;
+        row-gap: 25px;
+        margin: 0 auto 50px auto;
+        margin-left: -10px;
         width: 100%;
     }
     #main #articles .article {

@@ -207,6 +207,22 @@ body::-webkit-scrollbar {
         font-size: 18px;
         height: 40px;
     }
+    #head {
+        width: 70%;
+        margin: -50px auto 50px auto;
+    }
+    #content {
+        width: 80%;
+    }
+    #content form label {
+        font-size: 16px;
+    }
+    #content input[type="submit"] {
+        font-size: 16px;
+    }
+    #content #help {
+        font-size: 12px;
+    }
 }
 @media (max-width: 450px) {
     #header #logo {
@@ -220,10 +236,23 @@ body::-webkit-scrollbar {
         justify-content: center;
     }
     #header nav a {
-        font-size: 13px;
+        font-size: 12px;
         height: 40px;
     }
     #head {
-        width: 60%;
+        width: 70%;
+        margin: -50px auto 50px auto;
+    }
+    #content {
+        width: 80%;
+    }
+    #content form label {
+        font-size: 16px;
+    }
+    #content input[type="submit"] {
+        font-size: 16px;
+    }
+    #content #help {
+        font-size: 12px;
     }
 }

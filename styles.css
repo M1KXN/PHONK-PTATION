@@ -330,7 +330,7 @@ body::-webkit-scrollbar {
         justify-content: center;
     }
     #header nav a {
-        font-size: 13px;
+        font-size: 12px;
         height: 40px;
     }
     #main {
@@ -359,6 +359,11 @@ body::-webkit-scrollbar {
         text-align: left;
     }
     #main #four {
+        width: 300px;
+        margin:  40px 10%;
+        text-align: left;
+    }
+    #main #fifth {
         width: 300px;
         margin:  40px 10%;
         text-align: left;
