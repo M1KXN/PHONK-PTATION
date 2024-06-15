@@ -168,7 +168,7 @@ body::-webkit-scrollbar {
     top: 190px;
     left: 60%;
 }
-#main .max-head-right {
+#main .max-head {
     font-size: 50px;
     line-height: 80px;
 }
@@ -195,7 +195,7 @@ body::-webkit-scrollbar {
 #main .quote {
     font-size: 20px;
     font-style: italic;
-    height: 200px;
+    height: 250px;
     width: 100%;
     border-top: 10px ridge rgba(255, 154, 250, 0.7);
     border-left: 10px ridge rgba(255, 154, 250, 0.7);
