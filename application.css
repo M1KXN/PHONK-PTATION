@@ -40,7 +40,7 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 250px;
 }   
-#header p {
+#header #logo {
     margin-bottom: 30px;
     margin-top: 25px;
     color: rgb(160, 45, 175);
@@ -52,6 +52,7 @@ body::-webkit-scrollbar {
     0px -1px 1px rgb(255, 0, 144), 
     10px 0px 20px rgba(255, 255, 255, 0.5);
     text-align: center;
+    text-decoration: none;
 }
 
 #header nav {
@@ -97,13 +98,15 @@ body::-webkit-scrollbar {
 
 #content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    gap: 20px;
     align-items: center;
     margin: 0 auto 100px auto;
-    width: 50%;
+    width: 60%;
     border: 2px solid rgb(179, 97, 255);
     border-radius: 10px;
-    padding: 20px 0px 30px 0px;
+    padding: 30px 0px 40px 0px;
     background-color: rgba(0,0,0, 0.25);
     backdrop-filter: blur(1px);
     text-align: center;
@@ -145,7 +148,11 @@ body::-webkit-scrollbar {
     color: rgb(255, 255, 255);
     height: 40px;
     font-family: Oswald, serif;
-    margin-top: 20px; 
+    margin-top: 40px;
+    width: 60%;
+}
+#content #help {
+    font-size: 14px;
 }
 
 #hr {
@@ -180,4 +187,72 @@ body::-webkit-scrollbar {
     width: 50px;
     background-image: url("images/pngwing.com.png");
     background-size: 50px;
+}
+
+
+@media (max-width: 1100px) {
+    #wrapper {
+        width: 100%;
+    }
+    #header #logo {
+        font-size: 40px;
+        text-align: center;
+    }
+    #header nav {
+        width: 60%;
+        gap: 30px;
+        justify-content: center;
+    }
+    #header nav a {
+        font-size: 18px;
+        height: 40px;
+    }
+    #head {
+        width: 70%;
+        margin: -50px auto 50px auto;
+    }
+    #content {
+        width: 80%;
+    }
+    #content form label {
+        font-size: 16px;
+    }
+    #content input[type="submit"] {
+        font-size: 16px;
+    }
+    #content #help {
+        font-size: 12px;
+    }
+}
+@media (max-width: 450px) {
+    #header #logo {
+        font-size: 27px;
+        text-align: center;
+        width: 250px;
+    }
+    #header nav {
+        width: 80%;
+        gap: 15px;
+        justify-content: center;
+    }
+    #header nav a {
+        font-size: 12px;
+        height: 40px;
+    }
+    #head {
+        width: 70%;
+        margin: -50px auto 50px auto;
+    }
+    #content {
+        width: 80%;
+    }
+    #content form label {
+        font-size: 16px;
+    }
+    #content input[type="submit"] {
+        font-size: 16px;
+    }
+    #content #help {
+        font-size: 12px;
+    }
 }
