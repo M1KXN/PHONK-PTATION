@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/1614840358_38-p-fon-zvezdnoe-nebo-51.jpg");
+    background-image: url("images/Background_kopia.png");
     background-size: 100%;
     color: white;
     margin: 0;
@@ -54,6 +54,8 @@ body::-webkit-scrollbar {
     10px 0px 20px rgba(255, 255, 255, 0.5);
     text-align: center;
     text-decoration: none;
+    background-color: rgba(0,0,0, 0.9);
+    border-radius: 10px;
 }
 
 #header nav {
