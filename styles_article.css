@@ -430,9 +430,9 @@ body::-webkit-scrollbar {
     }
     /* адаптация первого текста */
     #main  #first .text.right {
-        width: 40%;
+        width: 50%;
         margin-top: -50%;
-        margin-left: 50%;
+        margin-left: 45%;
     }
     #main .text.left {
         width: 80%;
