@@ -115,7 +115,7 @@ body::-webkit-scrollbar {
 }
 #articles .article img {
     width: 350px;
-    background-color: rgba(0,0,0, 0.7);
+    background-color: rgba(0,0,0, 0.95);
 }
 #search {
     margin: 0px auto 50px auto;
