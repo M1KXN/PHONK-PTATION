@@ -99,6 +99,9 @@ body::-webkit-scrollbar {
 }
 
 #content {
+    animation-name: show;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -189,6 +192,16 @@ body::-webkit-scrollbar {
     width: 50px;
     background-image: url("images/pngwing.com.png");
     background-size: 50px;
+}
+
+@keyframes show {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 
