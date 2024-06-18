@@ -251,6 +251,21 @@ body::-webkit-scrollbar {
     font-size: 12px;
     margin-top: 50px;
 }
+#footer #thanks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: black;
+    color: rgb(179, 97, 255);
+    width: 60%;
+    height: 50px;
+    margin: 0 auto 20px auto;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: Oswald, serif;
+}
 #footer #social {
     display: flex;
     gap: 50px;
@@ -271,7 +286,7 @@ body::-webkit-scrollbar {
 
 
 
-@media (max-width: 1100px) {
+@media (max-width: 1300px) {
     #wrapper {
         width: 100%;
     }
@@ -369,5 +384,8 @@ body::-webkit-scrollbar {
         width: 300px;
         margin:  40px 10%;
         text-align: left;
+    }
+    #footer #thanks{
+        font-size: 14px;
     }
 }
