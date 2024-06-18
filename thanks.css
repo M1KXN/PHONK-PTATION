@@ -99,146 +99,33 @@ body::-webkit-scrollbar {
 }
 
 #main {
+    width: 80%;
     margin: 0 auto;
-    width: 1510px;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
 }
-#main .title {
-    font-size: 40px;
-    margin-bottom: 20px;
-    font-family: Oswald, serif;
-    line-height: 45px;
-}
-#main .text {
+#main p {
     font-size: 20px;
-    line-height: 35px;
 }
-#main .text a {
-    text-decoration: underline;
-    color: rgb(206, 95, 220);
+#main #links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    gap: 10px;
 }
-#main #frst {
-    margin: 0px 0px 0px 10%;
-    width: 500px;
-    text-align: justify;
-    border: 1px solid rgb(255, 154, 250);
-    padding: 5px 20px;
-    box-shadow: 20px 15px 15px rgb(0, 0, 0); 
-    background-color: rgba(0,0,0, 0.8);
-    border-radius: 10px;
-    backdrop-filter: blur(1px);
+#main a {
+    text-decoration: none;
+    color: rgb(186, 112, 255);
+    font-family: Oswald, serif;
 }
-#main #secd {
-    margin: 50px 0px 0px 55%;
-    width: 590px;
-    border: 1px solid rgb(255, 154, 250);
-    padding: 5px 20px;
-    box-shadow: 20px 15px 15px rgb(0, 0, 0); 
-    background-color: rgba(0,0,0, 0.8);
-    border-radius: 10px;
-    backdrop-filter: blur(1px);
-}
-#main #thrd {
-    margin: 50px 0px 0px 10%;
-    width: 550px;
-    border: 1px solid rgb(255, 154, 250);
-    padding: 5px 20px;
-    box-shadow: 20px 15px 15px rgb(0, 0, 0); 
-    background-color: rgba(0,0,0, 0.8);
-    border-radius: 10px;
-    backdrop-filter: blur(1px);
-}
-#main #four {
-    margin: 50px 0px 50px 55%;
-    width: 550px;
-    border: 1px solid rgb(255, 154, 250);
-    padding: 5px 20px;
-    box-shadow: 20px 15px 15px rgb(0, 0, 0); 
-    background-color: rgba(0,0,0, 0.8);
-    border-radius: 10px;
-    backdrop-filter: blur(1px);
-}
-#main #fifth {
-    margin: 0px 0px 100px 10%;
-    width: 500px;
-    text-align: left;
-    border: 1px solid rgb(255, 154, 250);
-    padding: 5px 20px;
-    box-shadow: 20px 15px 15px rgb(0, 0, 0); 
-    background-color: rgba(0,0,0, 0.8);
-    border-radius: 10px;
-    backdrop-filter: blur(1px);
-}
-/* Анимация для красивого "выплывания"*/
-@keyframes show {
-    from {
-        transform: translateX(-100px);
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-#main #frst, #main #secd, #main #thrd, #main #four {
-    animation-name: show;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-}
-
-#main img {
-    animation-name: some;
-    animation-duration: 8s;
-    animation-fill-mode: forwards;
-}
-#main img {
-    width: 100px;
-    position: absolute;
-    opacity: 0.8;
-}
-#main #first_cov {
-    top: 750px;
-    left: 220px;
-}
-#main #secd_cov {
-    top: 280px;
-    left: 700px;
-}
-#main #thrd_cov {
-    top: 400px;
-    left: 150px;
-}
-#main #fourth_cov {
-    top: 1430px;
-    left: 450px;
-}
-#main #fifth_cov {
-    top: 950px;
-    left: 1000px;
-}
-@keyframes show {
-    from {
-        transform: translateX(-100px);
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-@keyframes some {
-    from {
-        transform: translateX(-100px);
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-        transform: rotate(10deg);
-    }
-}
-
 
 #hr {
     width: 80%;
     height: 1px;
-    margin: 0 auto;
+    margin: 50px auto 0px auto;
     border: 2px solid rgb(255, 154, 250);
     border-radius: 1px;
 }
@@ -288,8 +175,7 @@ body::-webkit-scrollbar {
 }
 
 
-
-@media (max-width: 1300px) {
+@media (max-width: 1100px) {
     #wrapper {
         width: 100%;
     }
@@ -306,36 +192,21 @@ body::-webkit-scrollbar {
         font-size: 18px;
         height: 40px;
     }
-    #main {
-        width: 100%;
+    #main p {
+        font-size: 18px;
     }
-    #main #frst {
-        width: 400px;
-        margin: 10%;
-        margin-top: -30px;
-        text-align: left;
+    #main #links {
+        display: grid;
+        grid-template-columns: 2fr;
+        width: 90%;
+        margin: 0 auto;
+        gap: 10px;
     }
-    #main .title {
-        font-size: 30px;
+    #main a {
+        font-size: 14px;
     }
-    #main .text {
-        font-size: 15px;
-    }
-    #main #secd {
-        width: 400px;
-        margin:  40px 40%;
-        text-align: left;
-        margin-top: -30px;
-    }
-    #main #thrd {
-        width: 400px;
-        margin:  40px 10%;
-        text-align: left;
-    }
-    #main #four {
-        width: 400px;
-        margin:  40px 40%;
-        text-align: left;
+    #footer #thanks{
+        font-size: 14px;
     }
 }
 @media (max-width: 450px) {
@@ -353,40 +224,18 @@ body::-webkit-scrollbar {
         font-size: 12px;
         height: 40px;
     }
-    #main {
-        width: 100%;
-    }
-    #main #frst {
-        width: 300px;
-        margin: 10%;
-        margin-top: -30px;
-        text-align: left;
-    }
-    #main .title {
-        font-size: 30px;
-    }
-    #main .text {
+    #main p {
         font-size: 16px;
     }
-    #main #secd {
-        width: 300px;
-        margin:  40px 10%;
-        text-align: left;
+    #main #links {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin: 0 auto;
+        gap: 10px;
     }
-    #main #thrd {
-        width: 300px;
-        margin:  40px 10%;
-        text-align: left;
-    }
-    #main #four {
-        width: 300px;
-        margin:  40px 10%;
-        text-align: left;
-    }
-    #main #fifth {
-        width: 300px;
-        margin:  40px 10%;
-        text-align: left;
+    #main a {
+        font-size: 14px;
     }
     #footer #thanks{
         font-size: 14px;
