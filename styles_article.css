@@ -331,12 +331,12 @@ body::-webkit-scrollbar {
         text-align: center;
     }
     #header nav {
-        width: 60%;
+        width: 90%;
         gap: 30px;
         justify-content: center;
     }
     #header nav a {
-        font-size: 18px;
+        font-size: 20px;
         height: 40px;
     }
     #main {

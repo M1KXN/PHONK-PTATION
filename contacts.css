@@ -143,6 +143,7 @@ body::-webkit-scrollbar {
 #main #contacts span {
     font-size: 25px;
     margin-bottom: 10px;
+    width: 90%;
 }
 
 @keyframes show {
@@ -242,7 +243,7 @@ body::-webkit-scrollbar {
         text-align: center;
     }
     #header nav {
-        width: 60%;
+        width: 90%;
         gap: 30px;
         justify-content: center;
     }

@@ -278,7 +278,7 @@ body::-webkit-scrollbar {
         text-align: center;
     }
     #header nav {
-        width: 60%;
+        width: 90%;
         gap: 30px;
         justify-content: center;
     }
