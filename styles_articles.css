@@ -1,7 +1,5 @@
 body {
     background-color: black;
-    background-image: url("images/Background_kopia.png");
-    background-size: 100%;
     color: white;
     margin: 0;
     padding: 0;
@@ -75,7 +73,6 @@ body::-webkit-scrollbar {
     justify-content: center;
     margin: 0 auto;
     gap: 50px;
-    /* border: 1px solid red; */
 }
 #header nav a {
     display: flex;
@@ -313,7 +310,7 @@ body::-webkit-scrollbar {
         text-align: center;
     }
     #header nav {
-        width: 80%;
+        width: 90%;
         gap: 15px;
         justify-content: center;
     }
