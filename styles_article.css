@@ -7,6 +7,18 @@ body {
     padding: 0;
     letter-spacing: 2px;
 }
+body::before {
+    background: url("images/Background_kopia.png") no-repeat center center;
+    background-size: cover;
+    content: ' ';
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    will-change: transform;
+    z-index: -1;
+}
 /* Создание стиля для скролла */
 body::-webkit-scrollbar {
     width: 14px;       /* ширина scrollbar */
@@ -73,7 +85,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
     font-family: Oswald, serif;
     width: 140px;
-    background-color: rgba(0,0,0, 0.15);
+    background-color: rgba(0,0,0, 0.6);
     backdrop-filter: blur(1px);
     border: 1px solid rgb(255, 154, 250);
     border-radius: 10px;
