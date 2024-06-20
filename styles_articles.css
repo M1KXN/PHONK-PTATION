@@ -248,10 +248,10 @@ body::-webkit-scrollbar {
     }
     #main #articles {    
         grid-template: repeat(20, 1fr) / repeat(3, 1fr);
-        column-gap: 30px;
+        column-gap: 60px;
         row-gap: 25px;
         margin: 0 auto;
-        width: 80%;
+        width: 90%;
     }
     #main #articles .article {
         font-size: 0px;
@@ -338,7 +338,7 @@ body::-webkit-scrollbar {
         width: 250px;
     }
     #header nav {
-        width: 80%;
+        width: 90%;
         gap: 15px;
         justify-content: center;
     }

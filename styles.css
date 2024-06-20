@@ -289,7 +289,7 @@ body::-webkit-scrollbar {
 
 
 
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
     #wrapper {
         width: 100%;
     }
@@ -338,14 +338,61 @@ body::-webkit-scrollbar {
         text-align: left;
     }
 }
-@media (max-width: 450px) {
+@media (max-width: 1180px) {
+    #wrapper {
+        width: 100%;
+    }
+    #header #logo {
+        font-size: 30px;
+        text-align: center;
+    }
+    #header nav {
+        width: 90%;
+        gap: 30px;
+        justify-content: center;
+    }
+    #header nav a {
+        font-size: 18px;
+        height: 40px;
+    }
+    #main {
+        width: 100%;
+    }
+    #main #frst {
+        width: 70%;
+        margin: 10%;
+        margin-top: -30px;
+        text-align: left;
+    }
+    #main #secd {
+        width: 70%;
+        margin:  40px 10%;
+        text-align: left;
+    }
+    #main #thrd {
+        width: 70%;
+        margin:  40px 10%;
+        text-align: left;
+    }
+    #main #four {
+        width: 70%;
+        margin:  40px 10%;
+        text-align: left;
+    }
+    #main #fifth {
+        width: 70%;
+        margin:  40px 10%;
+        text-align: left;
+    }
+}
+@media (max-width: 550px) {
     #header #logo {
         font-size: 27px;
         text-align: center;
         width: 250px;
     }
     #header nav {
-        width: 80%;
+        width: 90%;
         gap: 15px;
         justify-content: center;
     }
