@@ -62,7 +62,7 @@ body::-webkit-scrollbar {
     0px -1px 1px rgb(255, 0, 144), 
     10px 0px 20px rgba(255, 255, 255, 0.5);
     text-align: center;
-    background-color: rgba(0,0,0, 0.7);
+    background-color: rgba(0,0,0, 0.9);
     border-radius: 10px;
     text-decoration: none;
 }
