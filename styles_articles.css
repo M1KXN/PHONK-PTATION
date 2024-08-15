@@ -53,18 +53,20 @@ body::-webkit-scrollbar {
 #header #logo {
     margin-bottom: 30px;
     margin-top: 25px;
-    color: rgb(160, 45, 175);
+    color: rgb(218, 99, 192);
     font-size: 60px;
     font-weight: 500;
-    text-shadow: 1px 0px 1px rgb(255, 0, 144),
+    /* text-shadow: 1px 0px 1px rgb(255, 0, 144),
     0px 1px 1px rgb(255, 0, 144),
     -1px 0px 1px rgb(255, 0, 144),
     0px -1px 1px rgb(255, 0, 144), 
-    10px 0px 20px rgba(255, 255, 255, 0.5);
+    10px 0px 20px rgba(255, 255, 255, 0.5); */
     text-align: center;
-    text-decoration: none;
     background-color: rgba(0,0,0, 0.9);
     border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Satisfy', cursive;
 }
 
 #header nav {
@@ -92,14 +94,14 @@ body::-webkit-scrollbar {
 }
 #header nav .active {
     text-decoration: none;
-    color: rgb(179, 97, 255);
+    color: rgb(218, 99, 192);
 }
 @keyframes change_color {
     from {
         color: white;
     }
     to {
-        color: rgb(208, 165, 249);
+        color: rgb(255, 167, 252);
     }
 }
 #header nav a:hover {
@@ -197,7 +199,7 @@ body::-webkit-scrollbar {
     align-items: center;
     font-size: 18px;
     background-color: black;
-    color: rgb(179, 97, 255);
+    color: rgb(218, 99, 192);
     width: 60%;
     height: 50px;
     margin: 0 auto 20px auto;
