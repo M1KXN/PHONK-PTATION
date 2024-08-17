@@ -343,18 +343,18 @@ body::-webkit-scrollbar {
         background-color: rgba(0, 0, 0, 0.15);
     }
     #main .date {
-        font-size: 12px;
+        font-size: 18px;
         width: 50%;
     }
     #main .title {
-        font-size: 50px;
+        font-size: 60px;
         margin-top: 20%;
         margin-left: 10%;
         writing-mode: vertical-lr;
         text-orientation: upright;
     }
     #main .text {
-        font-size: 14px;
+        font-size: 20px;
         line-height: 30px;
         border: 5px ridge rgba(255, 154, 250, 0.7);
         padding: 15px;
@@ -378,7 +378,7 @@ body::-webkit-scrollbar {
         width: 80%;
         line-height: 0px;
         position: relative;
-        font-size: 35px;
+        font-size: 45px;
         opacity: 0.7;
         font-family: oswald, serif;
         text-align: center;
@@ -401,6 +401,20 @@ body::-webkit-scrollbar {
     #main .max-head-right {
         font-size: 30px;
         line-height: 50px;
+    }
+    #main .dir-speech-left {
+        position: relative;
+        left: 10%;
+        top: 120px;
+        font-size: 18px;
+        width: 60%;
+    }
+    #main .dir-speech-right {
+        position: relative;
+        top: 120px;
+        left: 60%;
+        font-size: 18px;
+        width: 60%;
     }
     #main .quote {
         font-style: italic;
