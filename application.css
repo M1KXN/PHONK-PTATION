@@ -304,7 +304,7 @@ body::-webkit-scrollbar {
     }
     #head {
         width: 70%;
-        margin: -50px auto 50px auto;
+        margin: 0 auto 50px auto;
     }
     #content {
         width: 80%;

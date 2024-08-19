@@ -121,11 +121,12 @@ body::-webkit-scrollbar {
 #main .title {
     position: relative;
     top: 150px;
-    width: 200px;
+    width: 450px;
+    text-align: center;
     font-size: 150px;
     opacity: 0.8;
     font-family: Oswald, serif;
-    line-height: 45px;
+    line-height: 160px;
     margin-left: 50px;
     text-shadow: 0px 0px 10px rgb(255, 154, 250);
 }
@@ -474,8 +475,11 @@ body::-webkit-scrollbar {
     #main .title {
         font-size: 40px;
         margin-top: 30%;
+        margin-right: 10px;
         writing-mode: vertical-lr;
         text-orientation: upright;
+        line-height: 50px;
+        width: 100px;
     }
     /* адаптация текста */
     #main .text {
