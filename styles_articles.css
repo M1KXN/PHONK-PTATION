@@ -147,6 +147,7 @@ body::-webkit-scrollbar {
     border-radius: 5px;
     color: white;
     padding: 20px;
+    margin-top: 40px;
 }
 #search input:focus {
     border: 2px solid rgb(179, 97, 255);
